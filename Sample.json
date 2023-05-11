@@ -1,0 +1,230 @@
+{
+    "Athena Queries": [
+        {
+            "Query Name": "Third",
+            "Query Full Name": "Get all data for Third",
+            "Query ID": "Third_1",
+            "Query": "Select *",
+            "Status": "Reactivated",
+            "Version": "V1",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "05:35:11",
+            "Result": [
+                {
+                    "_col0": 1
+                },
+                {
+                    "_col1": 2
+                },
+                {
+                    "_col2": 3
+                },
+                {
+                    "_col3": 4
+                },
+                {
+                    "Altitude": "30"
+                },
+                {
+                    "Frequency": "50"
+                },
+                {
+                    "Ambient_Temperature": "35"
+                },
+                {
+                    "Ambient_Pressure_mbar": "1009.44"
+                },
+                {
+                    "Barometric_Pressure": "757"
+                },
+                {
+                    "Air_Density": "1"
+                },
+                {
+                    "Clinker_Crusher": "1"
+                },
+                {
+                    "Mid_HRB": "0"
+                },
+                {
+                    "Heavy_Duty_Roll_Breaker": "1"
+                },
+                {
+                    "Hammer_Crusher": "0"
+                },
+                {
+                    "Crusher_Design": "Heavy-duty Roll Crusher"
+                },
+                {
+                    "Cooler_Size": "16x50"
+                },
+                {
+                    "ABC_Inlet_Size": "16"
+                },
+                {
+                    "No_of_Grate_Section": "1"
+                },
+                {
+                    "Cooler_Grate_Width": "16"
+                },
+                {
+                    "ABC_Inlet_Grates": "8"
+                },
+                {
+                    "Width_of_Cooler": "4.80"
+                },
+                {
+                    "Length_of_Cooler": "28.40"
+                },
+                {
+                    "Cooler_Width_mm": "4800"
+                }
+            ],
+            "Superceded Date": "2023-05-02"
+        },
+        {
+            "Query Name": "Third",
+            "Query Full Name": "Get all data for Third",
+            "Query ID": "Third_2",
+            "Query": "Select * from 1",
+            "Status": "Archived",
+            "Version": "V2",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "05:36:00",
+            "Result": [
+                {
+                    "_col0": 1
+                },
+                {
+                    "_col2": 3
+                },
+                {
+                    "_col3": 4
+                }
+            ],
+            "Superceded Date": "None"
+        },
+        {
+            "Query Name": "Third",
+            "Query Full Name": "Get all data for Third",
+            "Query ID": "Third_1",
+            "Query": "Select *",
+            "Status": "Archived",
+            "Version": "V3",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "05:36:58",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ],
+            "Superceded Date": "None"
+        },
+        {
+            "Query Name": "Thirdray",
+            "Query Full Name": "Get all data for Thirdray",
+            "Query ID": "Thirdray_2",
+            "Query": "select * from a2",
+            "Status": "Archived",
+            "Version": "Current",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "05:40:23",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ]
+        },
+        {
+            "Query Name": "Third",
+            "Query Full Name": "Get all data for Third",
+            "Query ID": "Third_2",
+            "Query": "Select * from 1",
+            "Status": "Archived",
+            "Version": "V4",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "05:08:43",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ],
+            "Superceded Date": "None"
+        },
+        {
+            "Query Name": "Third",
+            "Query Full Name": "Get all data for Third",
+            "Query ID": "Third_1",
+            "Query": "Select *",
+            "Status": "Active",
+            "Version": "Current",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "06:19:31",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ],
+            "Superceded Date": "2023-05-02"
+        },
+        {
+            "Query Name": "Vas",
+            "Query Full Name": "Get c1, c2 for Vas",
+            "Query ID": "Vas_1",
+            "Query": "select c1, c2 from s1 ",
+            "Status": "Active",
+            "Version": "Current",
+            "Creation Date": "2023-05-11",
+            "Execution Time": "10:56:40",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ]
+        }
+    ],
+    "SQL": [
+        {
+            "Query Name": "Thirdray",
+            "Query Full Name": "Get all data for Thirdray",
+            "Query ID": "Thirdray_1",
+            "Query": "select * from s1",
+            "Status": "Active",
+            "Version": "Current",
+            "Creation Date": "2023-05-02",
+            "Execution Time": "06:24:58",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ]
+        },
+        {
+            "Query Name": "Vasu",
+            "Query Full Name": "Get all data for Vasu",
+            "Query ID": "Vasu_1",
+            "Query": "Select * from abc",
+            "Status": "Active",
+            "Version": "Current",
+            "Creation Date": "2023-09-05",
+            "Execution Time": "06:19:31",
+            "Result": [
+                {
+                    "_col0": 1
+                }
+            ]
+        },
+        {
+            "Query Name": "Novelty",
+            "Query Full Name": "Get val1, val2 for Novelty",
+            "Query ID": "Novelty_1",
+            "Query": "select val1, val2 from t1 inner join t2 on t1.id == t2.id where t1.age > 18 and t2.salary < 50",
+            "Status": "Active",
+            "Version": "Current",
+            "Creation Date": "2023-05-03",
+            "Execution Time": "06:21:00",
+            "Result": [
+            ]
+        }
+    ]
+}
